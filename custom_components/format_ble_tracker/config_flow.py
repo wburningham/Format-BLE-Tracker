@@ -89,7 +89,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 step_id="add_device", data_schema=STEP_USER_DATA_SCHEMA
             )
         mac = user_input[MAC].strip().upper()
-        if not re.match(MAC_REGEX, mac) and not re.match(UUID_REGEX, mac):
+        if not re.match(IRK_REGEX, mac) and not re.match(MAC_REGEX, mac) and not re.match(UUID_REGEX, mac):
             return self.async_abort(reason="not_id")
         await self.async_set_unique_id(mac)
         self._abort_if_unique_id_configured()

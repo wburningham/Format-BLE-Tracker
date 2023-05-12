@@ -5,6 +5,7 @@ DOMAIN = "format_ble_tracker"
 MAC = "mac"
 NAME = "name"
 SIXTEENTH_REGEX = "[0-9A-F]"
+IRK_REGEX = "^irk:[0-9A-Z-a-z]{32}$"
 MAC_REGEX = "^([0-9A-F]{2}[:]){5}([0-9A-F]{2})$"
 UUID_REGEX = "^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
 
