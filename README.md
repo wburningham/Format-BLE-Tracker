@@ -1,6 +1,6 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 
-# Format-BLE-Tracker
+# Format-BLE-Tracker-with-IRK
 
 Custom integration for tracking BLE devices (bluetooth tags, smartwatches, phones with Home Assistant Companion app) in Home Assistant
 Requires ESP32 tracking nodes installation: see https://github.com/formatBCE/ESP32_BLE_presense.
