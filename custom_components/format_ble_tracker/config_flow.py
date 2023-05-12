@@ -15,6 +15,7 @@ from .const import (
     AWAY_WHEN_OR,
     DOMAIN,
     MAC,
+    IRK_REGEX,
     MAC_REGEX,
     MERGE_IDS,
     MERGE_LOGIC,
