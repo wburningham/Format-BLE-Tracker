@@ -1,6 +1,6 @@
 """Constants for the Format BLE Tracker integration."""
 
-DOMAIN = "format_ble_tracker"
+DOMAIN = "format_ble_tracker_with_irk"
 
 MAC = "mac"
 NAME = "name"
