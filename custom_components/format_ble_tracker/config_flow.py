@@ -57,7 +57,7 @@ MERGE_SCHEMA = vol.Schema(
         vol.Required(MERGE_LOGIC, default=AWAY_WHEN_OR): vol.In(CONF_MERGE_LOGIC),
         vol.Required(CONF_ENTITIES): selector.EntitySelector(
             selector.EntitySelectorConfig(
-                integration="format_ble_tracker_with_irk", domain="device_tracker", multiple=True
+                integration="format_ble_tracker", domain="device_tracker", multiple=True
             ),
         ),
     }
